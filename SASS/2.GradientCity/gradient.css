@@ -1,0 +1,369 @@
+body {
+  width: 900px;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #AAAAAA;
+  padding: 0;
+  margin: 0; }
+  body #wrapper {
+    margin-left: 30%;
+    width: 90%;
+    height: 100%;
+    border: 2px solid #AAAAAA;
+    list-style: none;
+    padding: 2%; }
+    body #wrapper > header {
+      height: 12%;
+      width: 99.5%;
+      margin: 0.05% auto 2.2% auto;
+      border: 2px solid #AAAAAA; }
+      body #wrapper > header ul li {
+        height: 27px;
+        width: 11.5%;
+        border: 2px solid #AAAAAA;
+        padding-top: 0.5%;
+        margin-left: 7%;
+        margin-top: 1%; }
+        body #wrapper > header ul li a {
+          position: relative;
+          margin: 12% auto auto 11%; }
+        body #wrapper > header ul li a:hover {
+          color: white; }
+      body #wrapper > header > h1 {
+        font-size: 2em;
+        color: #878280;
+        font-weight: bold; }
+      body #wrapper > header ul li:nth-child(1) {
+        margin-left: 20%; }
+      body #wrapper > header ul li:hover {
+        background: #AAAAAA; }
+    body #wrapper ul li {
+      list-style-type: none;
+      display: inline-block; }
+      body #wrapper ul li a {
+        text-decoration: none;
+        color: #AAAAAA;
+        padding: 0; }
+    body #wrapper h1, body #wrapper h2 {
+      text-align: center;
+      font-weight: normal;
+      color: #7F878D; }
+    body #wrapper section {
+      padding-bottom: 1%; }
+      body #wrapper section article {
+        border: 2px solid #AAAAAA;
+        width: 90%;
+        height: 190px;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        text-align: center; }
+        body #wrapper section article header h2 {
+          font-size: 0.8em; }
+        body #wrapper section article .innerContainer {
+          width: 95%;
+          height: 70%;
+          margin: 3% auto auto auto;
+          padding: 0; }
+          body #wrapper section article .innerContainer div {
+            width: 15%;
+            height: 80%;
+            margin-top: 2%; }
+      body #wrapper section header h1 {
+        font-size: 0.85em;
+        text-decoration: underline; }
+    body #wrapper section.linear {
+      height: 35%; }
+      body #wrapper section.linear .innerContainer div {
+        display: inline-block;
+        margin-right: -5px; }
+      body #wrapper section.linear .innerContainer .purpleVertical {
+        background: -webkit-linear-gradient(#3D0F3D 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#3D0F3D 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#3D0F3D 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#3D0F3D 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .blueVertical {
+        background: -webkit-linear-gradient(#1414B6 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#1414B6 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#1414B6 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#1414B6 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .greenVertical {
+        background: -webkit-linear-gradient(#0F3D0F 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#0F3D0F 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#0F3D0F 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#0F3D0F 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .yellowVertical {
+        background: -webkit-linear-gradient(#F4F400 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#F4F400 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#F4F400 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#F4F400 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .orangeVertical {
+        background: -webkit-linear-gradient(#EA8C00 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#EA8C00 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#EA8C00 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#EA8C00 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .redVertical {
+        background: -webkit-linear-gradient(#CD0202 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#CD0202 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#CD0202 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#CD0202 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .purpleHorizontal {
+        background: -webkit-linear-gradient(left, #3D0F3D 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #3D0F3D 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #3D0F3D 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #3D0F3D 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .blueHorizontal {
+        background: -webkit-linear-gradient(left, #1414B6 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #1414B6 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #1414B6 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #1414B6 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .greenHorizontal {
+        background: -webkit-linear-gradient(left, #0F3D0F 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #0F3D0F 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #0F3D0F 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #0F3D0F 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .yellowHorizontal {
+        background: -webkit-linear-gradient(left, #F4F400 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #F4F400 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #F4F400 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #F4F400 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .orangeHorizontal {
+        background: -webkit-linear-gradient(left, #EA8C00 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #EA8C00 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #EA8C00 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #EA8C00 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .redHorizontal {
+        background: -webkit-linear-gradient(left, #CD0202 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #CD0202 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #CD0202 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #CD0202 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .purpleDiagonal {
+        background: -webkit-linear-gradient(left top, #3D0F3D 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #3D0F3D 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #3D0F3D 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #3D0F3D 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .blueDiagonal {
+        background: -webkit-linear-gradient(left top, #1414B6 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #1414B6 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #1414B6 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #1414B6 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .greenDiagonal {
+        background: -webkit-linear-gradient(left top, #0F3D0F 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #0F3D0F 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #0F3D0F 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #0F3D0F 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .yellowDiagonal {
+        background: -webkit-linear-gradient(left top, #F4F400 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #F4F400 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #F4F400 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #F4F400 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .orangeDiagonal {
+        background: -webkit-linear-gradient(left top, #EA8C00 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #EA8C00 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #EA8C00 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #EA8C00 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+      body #wrapper section.linear .innerContainer .redDiagonal {
+        background: -webkit-linear-gradient(left top, #CD0202 10%, white);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #CD0202 10%, white);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #CD0202 10%, white);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #CD0202 10%, white);
+        /* Standard syntax */
+        border-radius: 13%;
+        opacity: 0.8; }
+    body #wrapper .linear, body #wrapper .radial, body #wrapper footer {
+      border: 2px solid #AAAAAA; }
+    body #wrapper section.radial, body #wrapper footer {
+      margin-top: 2.2%; }
+    body #wrapper section.radial {
+      height: 200px; }
+      body #wrapper section.radial article {
+        border: none; }
+        body #wrapper section.radial article .innerContainer {
+          border: 1px solid #AAAAAA;
+          margin: 4% auto; }
+          body #wrapper section.radial article .innerContainer div {
+            display: inline-block;
+            margin-right: -5px; }
+          body #wrapper section.radial article .innerContainer .purpleRadial {
+            background: -webkit-radial-gradient(#3D0F3D 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#3D0F3D 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#3D0F3D 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#3D0F3D 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+          body #wrapper section.radial article .innerContainer .blueRadial {
+            background: -webkit-radial-gradient(#1414B6 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#1414B6 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#1414B6 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#1414B6 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+          body #wrapper section.radial article .innerContainer .greenRadial {
+            background: -webkit-radial-gradient(#0F3D0F 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#0F3D0F 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#0F3D0F 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#0F3D0F 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+          body #wrapper section.radial article .innerContainer .yellowRadial {
+            background: -webkit-radial-gradient(#F4F400 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#F4F400 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#F4F400 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#F4F400 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+          body #wrapper section.radial article .innerContainer .orangeRadial {
+            background: -webkit-radial-gradient(#EA8C00 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#EA8C00 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#EA8C00 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#EA8C00 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+          body #wrapper section.radial article .innerContainer .redRadial {
+            background: -webkit-radial-gradient(#CD0202 10%, white);
+            /* For Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(#CD0202 10%, white);
+            /* For Opera 11.1 to 12.0 */
+            background: -moz-radial-gradient(#CD0202 10%, white);
+            /* For Firefox 3.6 to 15 */
+            background: radial-gradient(#CD0202 10%, white);
+            /* Standard syntax */
+            border-radius: 1%;
+            opacity: 0.9; }
+    body #wrapper footer {
+      text-align: center; }
+      body #wrapper footer h3 {
+        font-size: 0.85em;
+        text-decoration: underline;
+        font-weight: normal; }
+      body #wrapper footer ul li {
+        display: block; }
+        body #wrapper footer ul li a {
+          font-size: 0.8em; }
+        body #wrapper footer ul li a:hover {
+          text-decoration: underline; }
+
+/*# sourceMappingURL=gradient.css.map */

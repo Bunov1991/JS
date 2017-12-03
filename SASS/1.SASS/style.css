@@ -1,0 +1,57 @@
+.darts .brown {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 24px; }
+.darts .brown {
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  background-color: brown;
+  width: 500px;
+  height: 500px; }
+.darts .blue {
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+  left: calc(50% - 200px);
+  top: calc(50% - 200px); }
+.darts .green {
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  left: calc(50% - 150px);
+  top: calc(50% - 150px); }
+.darts .yellow {
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px); }
+.darts .red {
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px); }
+  .darts .red span {
+    margin-top: 40px;
+    display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */

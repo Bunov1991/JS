@@ -1,0 +1,340 @@
+$default-border: 2px solid #AAAAAA;
+
+$colorStart: #3D0F3D;
+$colorEnd: white;
+
+@mixin verticalGradients ($colorStart, $colorStop) {
+  background: -webkit-linear-gradient($colorStart 10%, $colorEnd); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($colorStart 10%, $colorEnd); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($colorStart 10%, $colorEnd); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($colorStart 10%, $colorEnd); /* Standard syntax */
+  border-radius: 13%;
+  opacity: 0.8;
+}
+
+@mixin horizontalGradients ($colorStart, $colorEnd) {
+  background: -webkit-linear-gradient(left, $colorStart 10%, $colorEnd); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, $colorStart 10%, $colorEnd); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, $colorStart 10%, $colorEnd); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, $colorStart 10%, $colorEnd); /* Standard syntax */
+  border-radius: 13%;
+  opacity: 0.8;
+}
+
+@mixin diagonalGradients ($colorStart, $colorEnd) {
+  background: -webkit-linear-gradient(left top, $colorStart 10%, $colorEnd); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, $colorStart 10%, $colorEnd); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, $colorStart 10%, $colorEnd); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $colorStart 10%, $colorEnd); /* Standard syntax */
+  border-radius: 13%;
+  opacity: 0.8;
+}
+
+@mixin radialGradients ($colorStart, $colorEnd) {
+  background: -webkit-radial-gradient($colorStart 10%, $colorEnd); /* For Safari 5.1 to 6.0 */
+  background: -o-radial-gradient($colorStart 10%, $colorEnd); /* For Opera 11.1 to 12.0 */
+  background: -moz-radial-gradient($colorStart 10%, $colorEnd); /* For Firefox 3.6 to 15 */
+  background: radial-gradient($colorStart 10%, $colorEnd); /* Standard syntax */
+  border-radius: 1%;
+  opacity: 0.9;
+}
+
+body {
+  width: 900px;
+
+  font-family: Tahoma, Arial, sans-serif;
+  color: #AAAAAA;
+  padding: 0;
+  margin: 0;
+
+  #wrapper {
+    margin-left: 30%;
+    width: 90%;
+    height: 100%;
+    border: $default-border;
+    list-style: none;
+    padding: 2%;
+
+    > header {
+      height: 12%;
+      width: 99.5%;
+      margin: 0.05% auto 2.2% auto;
+      border: $default-border;
+
+      ul li {
+        height: 27px;
+        width: 11.5%;
+        border: $default-border;
+        padding-top: 0.5%;
+        margin-left: 7%;
+        margin-top: 1%;
+
+        a {
+          position: relative;
+          margin: 12% auto auto 11%;
+        }
+
+        a:hover {
+          color: white;
+        }
+
+      }
+
+      > h1 {
+        font-size: 2em;
+        color: #878280;
+        font-weight: bold;
+      }
+
+      ul li:nth-child(1) {
+        margin-left: 20%;
+      }
+
+      ul li:hover {
+        background: #AAAAAA;
+
+      }
+    }
+
+    ul li {
+      list-style-type: none;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        color: #AAAAAA;
+        padding: 0;
+      }
+    }
+
+    h1, h2 {
+      text-align: center;
+      font-weight: normal;
+      color: #7F878D;
+    }
+
+    section {
+      padding-bottom: 1%;
+      article {
+        border: $default-border;
+        width: 90%;
+        height: 190px;
+        margin-left: 5%;
+        margin-bottom: 1%;
+        text-align: center;
+
+        header h2 {
+          font-size: 0.8em;
+        }
+
+        .innerContainer {
+          width: 95%;
+          height: 70%;
+          margin: 3% auto auto auto;
+          padding: 0;
+
+          div {
+            width: 15%;
+            height: 80%;
+            margin-top: 2%;
+          }
+        }
+
+      }
+
+      header h1 {
+        font-size: 0.85em;
+        text-decoration: underline;
+
+      }
+    }
+
+    section.linear {
+      height: 35%;
+
+      .innerContainer {
+
+        div {
+          display: inline-block;
+          margin-right: -5px;
+        }
+
+        //                Vertical Gradients
+        .purpleVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #1414B6;
+        .blueVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #0F3D0F;
+        .greenVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #F4F400;
+        .yellowVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #EA8C00;
+        .orangeVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #CD0202;
+        .redVertical {
+          @include verticalGradients($colorStart, $colorEnd);
+        }
+
+        //                Horizontal Gradients
+        $colorStart: #3D0F3D;
+        .purpleHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #1414B6;
+        .blueHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #0F3D0F;
+        .greenHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #F4F400;
+        .yellowHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #EA8C00;
+        .orangeHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #CD0202;
+        .redHorizontal {
+          @include horizontalGradients($colorStart, $colorEnd);
+        }
+
+        //                Diagonal Gradients
+        $colorStart: #3D0F3D;
+        .purpleDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #1414B6;
+        .blueDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #0F3D0F;
+        .greenDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #F4F400;
+        .yellowDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #EA8C00;
+        .orangeDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+
+        $colorStart: #CD0202;
+        .redDiagonal {
+          @include diagonalGradients($colorStart, $colorEnd);
+        }
+      }
+    }
+
+
+
+    .linear, .radial, footer {
+      border: $default-border;
+    }
+
+    section.radial, footer {
+      margin-top: 2.2%;
+    }
+
+    section.radial {
+      height: 200px;
+
+      article {
+        border: none;
+
+        .innerContainer {
+          border: 1px solid #AAAAAA;
+          margin: 4% auto;
+
+          div {
+            display: inline-block;
+            margin-right: -5px;
+          }
+
+          //                Radial Gradients
+          $colorStart: #3D0F3D;
+          .purpleRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+          $colorStart: #1414B6;
+          .blueRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+          $colorStart: #0F3D0F;
+          .greenRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+          $colorStart: #F4F400;
+          .yellowRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+          $colorStart: #EA8C00;
+          .orangeRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+          $colorStart: #CD0202;
+          .redRadial {
+            @include radialGradients($colorStart, $colorEnd);
+          }
+
+        }
+      }
+    }
+
+    footer {
+
+      h3 {
+        font-size: 0.85em;
+        text-decoration: underline;
+        font-weight: normal;
+      }
+
+      ul {
+        li {
+          display: block;
+          a {
+            font-size: 0.8em;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+
+        }
+      }
+
+      text-align: center;
+    }
+  }
+}
